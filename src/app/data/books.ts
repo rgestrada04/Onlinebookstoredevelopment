@@ -1,0 +1,148 @@
+export interface Book {
+  id: string;
+  title: string;
+  author: string;
+  isbn: string;
+  price: number;
+  description: string;
+  category: string;
+  coverImage: string;
+  stock: number;
+}
+
+export const categories = ["Fiction", "Science", "History", "Technology", "Business", "Self-Help"];
+
+export const books: Book[] = [
+  {
+    id: "1",
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    isbn: "978-0743273565",
+    price: 15.99,
+    description: "The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, set in the Jazz Age on Long Island.",
+    category: "Fiction",
+    coverImage: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400&h=600&fit=crop",
+    stock: 12,
+  },
+  {
+    id: "2",
+    title: "A Brief History of Time",
+    author: "Stephen Hawking",
+    isbn: "978-0553380163",
+    price: 18.99,
+    description: "A landmark volume in science writing by one of the great minds of our time, exploring the universe from the Big Bang to black holes.",
+    category: "Science",
+    coverImage: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=600&fit=crop",
+    stock: 8,
+  },
+  {
+    id: "3",
+    title: "Sapiens",
+    author: "Yuval Noah Harari",
+    isbn: "978-0062316110",
+    price: 22.99,
+    description: "A brief history of humankind, exploring how Homo sapiens came to dominate the world.",
+    category: "History",
+    coverImage: "https://images.unsplash.com/photo-1589998059171-988d887df646?w=400&h=600&fit=crop",
+    stock: 15,
+  },
+  {
+    id: "4",
+    title: "Clean Code",
+    author: "Robert C. Martin",
+    isbn: "978-0132350884",
+    price: 42.99,
+    description: "A handbook of agile software craftsmanship with practical advice for writing clean, maintainable code.",
+    category: "Technology",
+    coverImage: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400&h=600&fit=crop",
+    stock: 20,
+  },
+  {
+    id: "5",
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    isbn: "978-0060935467",
+    price: 14.99,
+    description: "A gripping tale of racial injustice and childhood innocence in the American South during the 1930s.",
+    category: "Fiction",
+    coverImage: "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=600&fit=crop",
+    stock: 10,
+  },
+  {
+    id: "6",
+    title: "Thinking, Fast and Slow",
+    author: "Daniel Kahneman",
+    isbn: "978-0374533557",
+    price: 19.99,
+    description: "The definitive book on decision-making and the psychology of judgment by Nobel Prize winner Daniel Kahneman.",
+    category: "Business",
+    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=600&fit=crop",
+    stock: 18,
+  },
+  {
+    id: "7",
+    title: "The Selfish Gene",
+    author: "Richard Dawkins",
+    isbn: "978-0198788607",
+    price: 17.99,
+    description: "A gene-centered view of evolution that revolutionized the way we understand natural selection.",
+    category: "Science",
+    coverImage: "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?w=400&h=600&fit=crop",
+    stock: 14,
+  },
+  {
+    id: "8",
+    title: "Atomic Habits",
+    author: "James Clear",
+    isbn: "978-0735211292",
+    price: 16.99,
+    description: "An easy and proven way to build good habits and break bad ones through tiny changes that deliver remarkable results.",
+    category: "Self-Help",
+    coverImage: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400&h=600&fit=crop",
+    stock: 25,
+  },
+  {
+    id: "9",
+    title: "The Lean Startup",
+    author: "Eric Ries",
+    isbn: "978-0307887894",
+    price: 26.99,
+    description: "How today's entrepreneurs use continuous innovation to create radically successful businesses.",
+    category: "Business",
+    coverImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop",
+    stock: 11,
+  },
+  {
+    id: "10",
+    title: "1984",
+    author: "George Orwell",
+    isbn: "978-0451524935",
+    price: 13.99,
+    description: "A dystopian masterpiece depicting a totalitarian future society under constant surveillance.",
+    category: "Fiction",
+    coverImage: "https://images.unsplash.com/photo-1621944190310-e3cca1564bd7?w=400&h=600&fit=crop",
+    stock: 16,
+  },
+  {
+    id: "11",
+    title: "The Code Breaker",
+    author: "Walter Isaacson",
+    isbn: "978-1982115852",
+    price: 29.99,
+    description: "The story of Jennifer Doudna and CRISPR, and how gene editing will transform our species.",
+    category: "Science",
+    coverImage: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=600&fit=crop",
+    stock: 9,
+  },
+  {
+    id: "12",
+    title: "The Art of War",
+    author: "Sun Tzu",
+    isbn: "978-1599869773",
+    price: 12.99,
+    description: "An ancient Chinese military treatise that has influenced both Eastern and Western military thinking and business tactics.",
+    category: "History",
+    coverImage: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop",
+    stock: 22,
+  },
+];
